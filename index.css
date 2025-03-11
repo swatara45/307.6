@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #4e73df;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+    background-color: #375ac2;
+    border-radius: 5px;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.stat-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.stat-title {
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+
+
+.illustration {
+    height: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.Development-Approach {
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.color-box {
+    width: 200px;  /* Narrower width */
+    padding: 6px;  /* Smaller padding */
+    border-radius: 5px;
+    margin: 4px;  /* Less space between boxes */
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
